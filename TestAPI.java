@@ -14,7 +14,7 @@ public class TestAPI
 	}
 	
 	static String startWebRequest(String city){
-		String weatherURL = "http://api.openweathermap.org/data/2.5/weather?q="+city+"&APPID=26aa1d90a24c98fad4beaac70ddbf274";
+		String weatherURL = "http://api.openweathermap.org/data/2.5/weather?q="+city+"&APPID=4389573485";
 		StringBuilder result = new StringBuilder(); //will hold the java String after converting from JSON 
 		try {	
 			URL url = new URL(weatherURL); //the url we want to parse
